@@ -1,0 +1,20 @@
+[project]
+title = "Sohail Assesment Project"
+version = "0.1.0"
+port = 8501
+slug = "preswald-project"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "Preswald Project"
+logo = "images/git.png"
+favicon = "images/git.png"
+primaryColor = "#0f0f0f"
+
+[data.sugar_consumption_dataset_csv]
+type = "csv"
+path = "data/sugar_consumption_dataset.csv"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
